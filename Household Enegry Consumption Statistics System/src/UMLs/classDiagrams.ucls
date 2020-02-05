@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="mainengine.MainEngineFactory" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/mainengine/MainEngineFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="206" x="1008" y="-63"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="datamodel.Result" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/datamodel/Result.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="711" width="642" x="1527" y="642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="dataload.ILoader" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/dataload/ILoader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="248" x="512" y="642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="dataload.Loader" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/dataload/Loader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="342" x="633" y="305"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="datamodel.IResult" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/datamodel/IResult.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="371" x="1057" y="1393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="mainengine.IMainEngine" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/mainengine/IMainEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="421" x="172" y="305"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="reporting.Reporter" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/reporting/Reporter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="297" x="1015" y="305"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="timeaggregation.IAggregator" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/timeaggregation/IAggregator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="390" x="1097" y="642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="client.EnergyConsumptionStatistics" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/client/EnergyConsumptionStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="218" x="1333" y="-382"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="datamodel.MeasurementRecord" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/datamodel/MeasurementRecord.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="729" width="229" x="1527" y="1622"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="mainengine.MainEngine" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/mainengine/MainEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="421" x="1333" y="76"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="reporting.IResultReporter" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/reporting/IResultReporter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="194" x="800" y="642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="timeaggregation.Aggregator" project="Team_3181_4614_4343" 
+    file="/Team_3181_4614_4343/src/timeaggregation/Aggregator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="390" x="1373" y="305"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="14">    
+    <bendpoint x="481" y="642"/>    
+    <bendpoint x="481" y="1393"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="15">    
+    <bendpoint x="2220" y="642"/>    
+    <bendpoint x="2220" y="1393"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="17">    
+    <bendpoint x="691" y="76"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="18">    
+    <bendpoint x="1342" y="305"/>    
+    <bendpoint x="1045" y="642"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="19">    
+    <bendpoint x="1066" y="642"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="21">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="22">    
+    <bendpoint x="460" y="642"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="25">    
+    <bendpoint x="1536" y="1393"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="26">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="27" name="result"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="30">    
+    <bendpoint x="2241" y="305"/>    
+    <bendpoint x="2241" y="642"/>    
+    <bendpoint x="2241" y="1393"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="31">    
+    <bendpoint x="1458" y="1393"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <realization id="33">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="35">    
+    <bendpoint x="1342" y="-63"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <realization id="36">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="37">    
+    <bendpoint x="1024" y="642"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="38">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="39">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <dependency id="40">    
+    <bendpoint x="439" y="642"/>    
+    <bendpoint x="439" y="1393"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="42">    
+    <bendpoint x="670" y="-63"/>    
+    <bendpoint x="670" y="76"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="43">    
+    <bendpoint x="2199" y="-63"/>    
+    <bendpoint x="2199" y="76"/>    
+    <bendpoint x="2199" y="305"/>    
+    <bendpoint x="2199" y="642"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="44" name="mainResult"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <bendpoint x="2262" y="-63"/>    
+    <bendpoint x="2262" y="76"/>    
+    <bendpoint x="2262" y="305"/>    
+    <bendpoint x="2262" y="642"/>    
+    <bendpoint x="2262" y="1393"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="47" name="file"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
