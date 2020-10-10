@@ -1,0 +1,37 @@
+/* STAVROS ANDRONIS A.M. 3181 LOGIN:cse63181 
+   APOSTOLOS-ANASTASIOS AKRIVOS A.M. 4310 LOGIN:cse74310
+*/
+import java.util.Scanner;
+
+
+class UpperDiagonal{
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Give the matrix size");
+		int N = in.nextInt();
+		int k = N*(N+1)/2-1;
+		int Matrix2D[][] = new int[N][N];
+		for (int i=0; i<N; i++) {
+			for (int j=0; j<N-i; j++ ) {
+				Matrix2D[i][j] = k;
+				k--;
+			}
+			
+		}
+		System.out.println("The upper diagonal array of size "+N+" is:");
+		int c = 0;
+		for (int i=0; i<N; i++) {
+			for (int j=0; j<N-i; j++ ) {
+				if (c == i) {
+					System.out.printf("%d ",(Matrix2D[i][j]));	
+				}else{
+					c = i;
+					System.out.printf("\n%d ",(Matrix2D[i][j]));
+				}
+				
+			}
+			
+		}
+		System.out.println("\n");
+	}
+}
