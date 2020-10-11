@@ -1,9 +1,9 @@
-ΤΑ ΜΕΛΗ ΤΗΣ ΟΜΑΔΑΣ ΑΝΑΠΤΥΞΗΣ ΤΟΥ PROJECT:
-ΣΤΑΥΡΟΣ ΑΝΔΡΩΝΗΣ ΑΜ: 3181   ΜΙΧΑΗΛ - ΑΓΓΕΛΟΣ ΜΠΑΡΜΠΑΡΟΥΣΗΣ ΑΜ: 4614  ΝΙΚΟΣ ΓΚΟΥΤΖΑΣ ΑΜ: 4343
-
-Χρησιμοποιώ μεθόδους της κλάσης DescriptiveStatistics οπότε για να εκτελεστεί το πρόγραμμα εισάγετε το jar αρχείο apache commons που βρίσκεται στο φάκελο lib στο java build 
-path ενημερώνοντας το class path.Η μέθοδος της MainEngine reportResultInFile όπως και η αντίστοιχη μεθοδός της στην κλάση Reporter δέχονται ένα ολοκληρωμένο path ωστόσο 
-οι περισσότεροι έλεγχοι ορθότητας γίνοται στην κλάση EnergyConsumptionStatistics που περιέχει την main μέθοδο όπου ζητείται αρχικά από τον αναλυτή όταν επιλεχθεί η λειτουργία 
-Produce Report η εισαγωγή του path του φακέλου που θέλει να δημιουργήσει το αρχείο όπου και εκτελείτε έλεγχος ορθοτητάς του και στην συνέχεια το όνομα του αρχείου και τέλος  
-ο τύπος αρχείου χωρίς τελεία αφού εισάγεται κατά την κατασκευή του full path για την δημιουργία του αρχείου.Αποδεκτοί τύποι αρχείου είναι txt , md και html ο συγκεκριμένος
-έλεγχος ορθότητας γίνεται στην κλάση EnergyConsumptionStatistics.
+Created by ZagorianCoder!
+A Program for creating a statistics report about Household Energy Cobsumption. The Report can be a txt or md or htlm file.
+2 ways to run this Project: 
+1st: Navigate to the starting page and run the EnergyCon.jar Executable File.
+2nd:
+Program uses methods of DescriptiveStatistics so you must add the jar file of apache commons (located at lib folder) to java build 
+path updating the class path.
+Method: MainEngine reportResultInFile as like as its corresponding method in class Reporter needs the full path of the given file.
+To create a file just give the path to the directory you want to save it , a name to remember it and finally only the name of the file type without a fullstop in front of it Valid Type of Files: txt , md and html.
