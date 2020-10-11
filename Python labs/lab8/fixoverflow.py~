@@ -1,0 +1,4 @@
+from decimal import *
+getcontext().prec=2.2
+s=Decimal(1/3)
+print(s)
